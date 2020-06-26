@@ -4,6 +4,8 @@ import Sidebar from './components/layouts/sidebar.js';
 import Topbar from './components/layouts/topbar.js';
 import Header from './components/layouts/header.js';
 import Content from './components/layouts/content.js';
+import demo from './components/demo.js'
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
             
             <div className="container-fluid">
               <Header/>
+              
               <Content />
             </div>
           </div>

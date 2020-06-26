@@ -3,10 +3,9 @@ import Todo from './../modules/todo/todo.js';
 class content extends Component {
     render() {
         return (
-          <div>
+          <>
             <Todo/>
-
-          </div>
+          </>
         );
     }
 }
